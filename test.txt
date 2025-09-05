@@ -1,0 +1,64 @@
+Epoch 1/20:   0%|          | 0/2188 [00:00<?, ?it/s]
+Epoch 01 | Train 62.50% | Val 71.49%
+  ✔️  Saved new best (71.49 %)
+Epoch 2/20:   0%|          | 0/2188 [00:00<?, ?it/s]
+Epoch 02 | Train 71.20% | Val 75.05%
+  ✔️  Saved new best (75.05 %)
+Epoch 3/20:   0%|          | 0/2188 [00:00<?, ?it/s]
+Epoch 03 | Train 75.43% | Val 79.67%
+  ✔️  Saved new best (79.67 %)
+Epoch 4/20:   0%|          | 0/2188 [00:00<?, ?it/s]
+Epoch 04 | Train 78.24% | Val 81.15%
+  ✔️  Saved new best (81.15 %)
+Epoch 5/20:   0%|          | 0/2188 [00:00<?, ?it/s]
+Epoch 05 | Train 80.55% | Val 83.24%
+  ✔️  Saved new best (83.24 %)
+Epoch 6/20:   0%|          | 0/2188 [00:00<?, ?it/s]
+Epoch 06 | Train 82.56% | Val 84.54%
+  ✔️  Saved new best (84.54 %)
+Epoch 7/20:   0%|          | 0/2188 [00:00<?, ?it/s]
+Epoch 07 | Train 84.17% | Val 85.80%
+  ✔️  Saved new best (85.80 %)
+Epoch 8/20:   0%|          | 0/2188 [00:00<?, ?it/s]
+Epoch 08 | Train 85.33% | Val 87.37%
+  ✔️  Saved new best (87.37 %)
+Epoch 9/20:   0%|          | 0/2188 [00:00<?, ?it/s]
+Epoch 09 | Train 86.66% | Val 87.44%
+  ✔️  Saved new best (87.44 %)
+Epoch 10/20:   0%|          | 0/2188 [00:00<?, ?it/s]
+Epoch 10 | Train 87.66% | Val 88.90%
+  ✔️  Saved new best (88.90 %)
+Epoch 11/20:   0%|          | 0/2188 [00:00<?, ?it/s]
+Epoch 11 | Train 88.61% | Val 89.54%
+  ✔️  Saved new best (89.54 %)
+Epoch 12/20:   0%|          | 0/2188 [00:00<?, ?it/s]
+Epoch 12 | Train 89.44% | Val 90.47%
+  ✔️  Saved new best (90.47 %)
+Epoch 13/20:   0%|          | 0/2188 [00:00<?, ?it/s]
+Epoch 13 | Train 90.25% | Val 90.46%
+Epoch 14/20:   0%|          | 0/2188 [00:00<?, ?it/s]
+Epoch 14 | Train 91.03% | Val 91.42%
+  ✔️  Saved new best (91.42 %)
+Epoch 15/20:   0%|          | 0/2188 [00:00<?, ?it/s]
+Epoch 15 | Train 91.69% | Val 91.93%
+  ✔️  Saved new best (91.93 %)
+Epoch 16/20:   0%|          | 0/2188 [00:00<?, ?it/s]
+Epoch 16 | Train 92.32% | Val 92.00%
+  ✔️  Saved new best (92.00 %)
+Epoch 17/20:   0%|          | 0/2188 [00:00<?, ?it/s]
+Epoch 17 | Train 92.68% | Val 92.47%
+  ✔️  Saved new best (92.47 %)
+Epoch 18/20:   0%|          | 0/2188 [00:00<?, ?it/s]
+Epoch 18 | Train 93.06% | Val 92.63%
+  ✔️  Saved new best (92.63 %)
+Epoch 19/20:   0%|          | 0/2188 [00:00<?, ?it/s]
+Epoch 19 | Train 93.39% | Val 92.65%
+  ✔️  Saved new best (92.65 %)
+Epoch 20/20:   0%|          | 0/2188 [00:00<?, ?it/s]
+Epoch 20 | Train 93.52% | Val 92.67%
+  ✔️  Saved new best (92.67 %)
+
+Training done — loading best checkpoint …
+/tmp/ipykernel_31/51466634.py:19: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load("best_vit_model.pth"))
+<All keys matched successfully>
